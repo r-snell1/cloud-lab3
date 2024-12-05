@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import GitHubLoginButton from './GitHubLoginButton';
+import GitHubLoginButton from './GitHubLoginButton.jsx';
 import './App.css';
 import Welcome from './welcome.jsx';
 
