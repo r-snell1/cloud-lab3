@@ -6,7 +6,15 @@
     },
     {
       "route": "/",
-      "rewrite": "/.auth/login/github?post_login_redirect_uri=/"
+      "rewrite": "/.auth/login/github?post_login_redirect_uri=/welcome"
+    },
+    {
+      "route": "/welcome",
+      "statusCode": 200,
+      "response": {
+        "contentType": "text/html",
+        "content": "<h1>My name is Ryan!</h1>"
+      }
     }
   ]
 }
