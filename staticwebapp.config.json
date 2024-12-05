@@ -6,7 +6,7 @@
     },
     {
       "route": "/",
-      "rewrite": "/.auth/login/github?post_login_redirect_uri=.referrer"
+      "rewrite": "/.auth/login/github?post_login_redirect_uri=/"
     }
   ]
 }
