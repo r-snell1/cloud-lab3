@@ -1,4 +1,6 @@
-import './App.css'
+import React from 'react';
+import GitHubLoginButton from './GitHubLoginButton';
+import './App.css';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,9 +11,11 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Hello! My name is Ryan! The count is {count}.
-        </p>
+        <div>
+          <h1>Welcome to the App! My name is Ryan!</h1>
+          <GitHubLoginButton />
+        </div>
+        
       </div>
     </>
   )
