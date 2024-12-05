@@ -2,10 +2,8 @@
   "routes": [
     {
       "route": "/login",
-      "methods": [
-        "connect"
-      ],
-      "redirect": "/.auth/login/github"
+      "redirect": "/.auth/login/github",
+      "statusCode": 301
     },
     {
       "route": "/",
