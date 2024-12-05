@@ -6,8 +6,7 @@
     },
     {
       "route": "/",
-      "rewrite": "/.auth/login/github?post_login_redirect_uri=/",
-      "redirect": "https://green-ocean-0e709031e.4.azurestaticapps.net"
+      "rewrite": "/.auth/login/github?post_login_redirect_uri=/"
     }
   ]
 }
