@@ -6,10 +6,10 @@
     },
     {
       "route": "/",
-      "rewrite": "/.auth/login/github?post_login_redirect_uri=/welcome"
+      "rewrite": "/.auth/login/github?post_login_redirect_uri=/src/welcome"
     },
     {
-      "route": "/welcome",
+      "route": "/src/welcome",
       "statusCode": 200,
       "response": {
         "contentType": "text/html",
