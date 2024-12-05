@@ -1,10 +1,11 @@
 {
   "routes": [
     {
-      "route": "/.auth/login/github",
+      "route": "/login",
       "methods": [
         "connect"
-      ]
+      ],
+      "redirect": "/.auth/login/github"
     }
   ]
 }
