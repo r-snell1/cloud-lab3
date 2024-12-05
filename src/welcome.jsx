@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function welcome() {
+function Welcome() {
 
     const [count, setCount] = useState(0);
 
@@ -17,4 +17,4 @@ function welcome() {
     );
 }
 
-export default welcome;
+export default Welcome;
