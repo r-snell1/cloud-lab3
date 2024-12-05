@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import GitHubLoginButton from './GitHubLoginButton';
 import './App.css';
+import Welcome from './welcome.jsx';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,17 +35,18 @@ function App() {
   }, []);
 
   return (
-    <>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <div>
-          <h1>Welcome to the App! My name is Ryan!</h1>
-          <GitHubLoginButton />
+      <>
+        <div className="card">
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is {count}
+          </button>
+          <div>
+            <h1>Welcome to the App! My name is Ryan!</h1>
+            <GitHubLoginButton />
+            <Welcome />
+          </div>
         </div>
-      </div>
-    </>
+      </>
   );
 }
 
